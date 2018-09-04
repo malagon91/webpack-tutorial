@@ -1,0 +1,14 @@
+Cuatros conceptos principales que debemos conocer de Webpack
+
+Entry: indica qué módulo debe usar el paquete web para comenzar a construir su gráfico de dependencia interno.
+
+Output: Le dice a webpack dónde emitir los paquetes que crea y cómo nombrar estos archivos.
+
+Loaders: Permiten que el paquete web procese más que solo archivos JavaScript. Le dan la capacidad de aprovechar las capacidades de agrupamiento de paquetes web para todo tipo de archivos convirtiéndolos en módulos válidos que el paquete web puede procesar.
+
+Plugins: Los plugins pueden aprovecharse para realizar una gama más amplia de tareas. Los complementos abarcan desde la optimización de paquetes y la minificación hasta la definición de variables similares al entorno.
+
+Las definiciones pertenecen a la documentacion oficial de Webpack, favor ver el siguiente link: https://webpack.js.org/concepts/
+
+
+npm install babel-loader babel-core babel-preset-es2015 babel-preset-es2016 -D
