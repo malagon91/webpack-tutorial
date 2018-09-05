@@ -12,3 +12,5 @@ Las definiciones pertenecen a la documentacion oficial de Webpack, favor ver el 
 
 
 npm install babel-loader babel-core babel-preset-es2015 babel-preset-es2016 -D
+
+para sass necesitamos instalar un interprete en la maquina 

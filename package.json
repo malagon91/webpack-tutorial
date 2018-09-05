@@ -18,7 +18,11 @@
     "build:video": "webpack --config ./file-loader-video/webpack.config.js",
     "build:json": "webpack --config ./json-loader/webpack.config.js",
     "build:react": "webpack --config ./react/webpack.config.js",
-    "build:sass": "webpack --config ./sass-loader/webpack.config.js"
+    "build:sass": "webpack --config ./sass-loader/webpack.config.js",
+    "build:stylus": "webpack --config ./stylus/webpack.config.js",
+    "build:less": "webpack --config ./less-loader/webpack.config.js",
+    "build:postcss": "webpack --config ./postcss-loader/webpack.config.js",
+    "build:prevent": "webpack --config ./prevent-duplication/webpack.config.js"
   },
   "keywords": [
     "webpack"
@@ -35,8 +39,18 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.11",
     "json-loader": "^0.5.7",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "nib": "^1.1.2",
+    "node-sass": "^4.9.3",
+    "postcss": "^7.0.2",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-loader": "^3.0.0",
+    "rupture": "^0.7.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.22.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "url-loader": "^1.1.0",
     "webpack": "^3.8.1",
     "webpack-dev-server": "2.9.3"
