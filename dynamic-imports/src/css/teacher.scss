@@ -1,0 +1,7 @@
+$borderwi: 2px + 3px;
+$padding : $borderwi *2;
+.teachers{
+    border: $borderwi dashed orange;
+    padding: $padding;
+    background: gray;
+}
